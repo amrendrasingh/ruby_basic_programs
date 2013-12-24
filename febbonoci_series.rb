@@ -1,6 +1,14 @@
-#Febonocci series in ruby
-p 'Enter the number upto which you want to print febonocci series : '
+# Fibonacci series in ruby
+
+def is_number?(num)
+  if num <= 0
+    puts 'Please Enter Valid Positive Integer';exit 
+  end  
+end
+
+p 'Enter the number upto which you want to print fibonacci series : '
 num = gets.to_i
+is_number?(num)
 c = 0
 first = 0
 second = 1
