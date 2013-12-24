@@ -16,5 +16,3 @@ while(c < num )
  p val
  c = c+1
 end
-
-

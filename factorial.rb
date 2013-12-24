@@ -9,3 +9,4 @@
     c = c+1
   end
   p "Factorial of #{num} is #{fact}" 
+  
